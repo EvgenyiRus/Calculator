@@ -1,11 +1,11 @@
 package Service;
 
 public interface IArithmeticOperations {
-    long sum(long fistNumber, long secondNumber);
+    int sum(int fistNumber, int secondNumber);
 
-    long product(long fistNumber, long secondNumber);
+    int product(int fistNumber, int secondNumber);
 
-    long difference(long fistNumber, long secondNumber);
+    int difference(int fistNumber, int secondNumber);
 
-    double divide(long fistNumber, long secondNumber);
+    double divide(int fistNumber, int secondNumber);
 }

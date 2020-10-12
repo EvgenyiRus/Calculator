@@ -3,19 +3,19 @@ package Service;
 public interface IOperationService extends IArithmeticOperations {
     double getResult();
 
-    default long sum(long fistNumber, long secondNumber) {
-        return fistNumber+secondNumber;
+    default int sum(int fistNumber, int secondNumber) {
+        return fistNumber + secondNumber;
     }
 
-    default long product(long fistNumber, long secondNumber) {
-        return fistNumber - secondNumber;
-    }
-
-    default long difference(long fistNumber, long secondNumber) {
+    default int product(int fistNumber, int secondNumber) {
         return fistNumber * secondNumber;
     }
 
-    default double divide(long fistNumber, long secondNumber) {
-        return fistNumber / secondNumber;
+    default int difference(int fistNumber, int secondNumber) {
+        return fistNumber - secondNumber;
+    }
+
+    default double divide(int fistNumber, int secondNumber) {
+        return (double) fistNumber / secondNumber;
     }
 }

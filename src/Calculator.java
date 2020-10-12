@@ -7,7 +7,7 @@ import Util.RomanNumberUtil;
 import java.io.IOException;
 
 public class Calculator {
-    private static boolean isRomanOperation = false;
+    private static boolean isRomanOperation;
 
     public static void main(String[] args) throws IOException {
         IData data = new Data();

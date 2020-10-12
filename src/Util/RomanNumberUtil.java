@@ -1,7 +1,6 @@
 package Util;
 
 import Resources.RomanNumber;
-
 import java.util.List;
 
 public class RomanNumberUtil {
