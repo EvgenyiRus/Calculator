@@ -7,9 +7,9 @@ import java.util.regex.Pattern;
 
 public class Data implements IData {
     private static final Pattern ARABIC_NUMBER_PATTERN =
-            Pattern.compile("([1-9]|10)\\s[+,\\-,*,/]\\s([1-9]|10)");
+            Pattern.compile("([1-9]|10)\\s[\\+,\\-,\\*,\\/]\\s([1-9]|10)");
     private static final Pattern ROMAN_NUMBER_PATTERN =
-            Pattern.compile("(I{1,3}|IV|V|VI{1,3}|IX|X)\\s[+,\\-,*,/]\\s(I{1,3}|IV|V|VI{1,3}|IX|X)");
+            Pattern.compile("(I{1,3}|IV|V|VI{1,3}|IX|X)\\s[\\+,\\-,\\*,\\/]\\s(I{1,3}|IV|V|VI{1,3}|IX|X)");
 
     @Override
     public void printResult(Object outputData) {
