@@ -1,6 +1,6 @@
-package Util;
+package util;
 
-import Resources.RomanNumber;
+import resources.RomanNumber;
 import java.util.List;
 
 public class RomanNumberUtil {

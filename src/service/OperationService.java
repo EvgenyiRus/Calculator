@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 public class OperationService implements IOperationService {
     private int fistNumber;

@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 public interface IOperationService extends IArithmeticOperations {
     double getResult();

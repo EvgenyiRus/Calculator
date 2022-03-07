@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 public interface IArithmeticOperations {
     int sum(int fistNumber, int secondNumber);
